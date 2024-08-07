@@ -1,0 +1,21 @@
+.custom-navbar {
+    width: 85% !important; 
+    margin: 0 auto; 
+    background-color: #ffffff !important;
+    /* border-radius: 10px;  */
+  }
+  
+  a{
+    font-size: 18px !important;
+    font-weight: 550 !important;
+  }
+
+  .navbarmain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    z-index: 1000; 
+    background-color: #ffffff;
+  }

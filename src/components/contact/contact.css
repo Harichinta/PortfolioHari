@@ -1,0 +1,160 @@
+.contactmain {
+    background-color: #26282a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding-top: 2rem;
+    /* background-image: url('../../assets/cntbglogo.jpg'); */
+
+    /* background-image: url('../../assets/contactbg8.jpg');*/
+    /* background-size: cover;  */
+}
+
+.cntform {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    min-height: 500px;
+    width: 500px !important;
+    padding: 30px 40px !important;
+    border-radius: 10px;
+    /* background-image: url('../../assets/cntbg2.jpg'); */
+    /* background-size: 100% 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.063);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.inputfeild {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 14px;
+    border: 0;
+    /* color: #ffffff; */
+    letter-spacing: 0.8px;
+    background-color: #ffffff;
+    border: 1px solid #474a4b;
+}
+
+
+.textareafeild{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 14px;
+    border: 0;
+    background-color: #ffffff;
+    /* color: black; */
+    border: 1px solid #474a4b;
+}
+
+.contactsubmit {
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: 1px;
+    border: 0;
+    font-weight: 600;
+    /* background-color: #3d4444; */
+    background-color: rgba(0, 255, 255, 1);
+    /* color: #ffffff; */
+    /* background-color: rgb(84, 215, 239); */
+
+}
+.contactsubmit:focus{
+    transform: scale(0.98);
+    transition: all 0.2s;
+    /* border: 1px solid #ffffff; */
+    background-color: rgba(0, 255, 255, 1);
+    color: black;
+    width: 100px;
+}
+.contactimg{
+    /* background-color: #ffffff; */
+    min-height: 500px;
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top:0;
+    border-radius: 0 5px 5px 0;
+}
+
+.iconcontainer{
+    /* padding: 18px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contacttitl{
+    font-size: 1.8rem;
+    /* color: #ffffff; */
+    /* color: black; */
+    font-weight: 600 !important;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .cntform{
+        margin-top: 0 !important;
+    }
+    .contactmain {
+        padding-top: 0;
+    }
+}
+
+.contacthead{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+/* .cntmainbg{
+    background-image: url('');
+    background-size: 100% 100%;
+} */
+
+
+/* new contact section */
+
+.getintouch{
+    color: #ffffff;
+}
+
+.cntdescription{
+    font-size: 18px;
+}
+
+.linkedinpath{
+    font-size: 14px !important;
+color:rgba(0, 255, 255, 1);
+}
+.mailpath{
+    /* color: #ffffff; */
+    color:rgba(0, 255, 255, 1);
+    font-size: 14px !important;
+    margin-left: 0.8rem;
+}
+

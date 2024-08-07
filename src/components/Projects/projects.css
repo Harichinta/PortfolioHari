@@ -1,0 +1,229 @@
+#Projectheader {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 2rem;
+    background-color: #26282a;
+    opacity: 0.88;
+}
+
+
+.prjectmaincnt {
+    /* padding-bottom: 14rem; */
+    background-color: #26282a;
+    background-image: url('../../assets/prdtlsbg1.avif');
+    background-size: cover;
+    /* border: 1px solid rgba(0,255,255,1); */
+}
+
+.prjectnav {
+    /* border: 1px solid #ffffff; */
+    /* background-image: url('../../assets/prnavbg.jpg');
+    background-size: cover; */
+    background-color: #26282a;
+    opacity: 0.95;
+    /* border: 1px solid rgba(0,255,255,1); */
+
+}
+
+.prcontent,
+.prjecDetails {
+    /* min-height: 80vh; */
+    border-bottom: 0;
+    height: 100%;
+}
+
+.prfilepic {
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    /* background-image: url('../../assets/projectprofile.png');
+    background-size:contain; */
+    object-fit: fill;
+    /* background-color: #535455; */
+}
+
+.cntprofile {
+    height: 30%;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imagecontainer {
+    /* height: 50%; */
+    /* background-image: url('../../assets/prdtlsbg1.avif');
+    background-size: cover; */
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-color: #26282a;
+    opacity: 0.88;
+    color: #ffffff;
+    padding-left: 0.5rem;
+    padding-top: 1rem
+}
+
+.prjectcontainer {
+    height: 100% !important;
+}
+
+.Projectinfo {
+    background-color: #26282a;
+    color: #ffffff;
+    padding: 14px 1rem 5rem 1.5rem;
+    opacity: 0.95;
+}
+
+.Projectinfo p {
+    font-size: 14px !important;
+    color: rgb(220, 219, 219);
+}
+
+.projectlist {
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100%; */
+}
+
+.prname {
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.prname:hover {
+    background-color: #494b4e;
+}
+
+.active {
+    background-color: #494b4e;
+    color:rgba(0, 255, 255, 1);
+    /* border: 1px solid rgba(0,255,255,1); */
+
+}
+
+.projecttitle {
+    font-size: clamp(18px, 2.3vw, 3rem);
+    opacity: 0.9;
+    padding-left: 0.5rem;
+    color:rgba(0, 255, 255, 1);
+}
+
+.role {
+    font-size: clamp(16px, 1.6vw, 2rem);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.prdisc {
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+    color: rgb(220, 219, 219);
+}
+
+.duration {
+    padding-left: 10px;
+
+}
+
+.websitelink {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.websitelink a {
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.05rem;
+}
+
+.roleandres {
+    font-size: 18px;
+}
+
+.bar {
+    /* background-color: red !important; */
+    background: linear-gradient(#d7f8fa 0%, rgba(0, 255, 255, 1) 40%, #00bcd4 50%, rgba(0, 255, 255, 0.8) 60%, #d7f8fa 100%);
+    text-align: center;
+    font-size: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 10px;
+    color: #ffffff;
+}
+
+.percent {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    font-size: 12px;
+}
+
+.skillpercent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.navprofile {
+    border-radius: 50% !important;
+    border: 1px solid white;
+    background-size:100% 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.security {
+    background-color: #26282a;
+    color: #ffffff !important;
+    padding-left: 1rem;
+    padding-bottom: 5rem;
+    opacity: 0.95;
+}
+
+.skillsbarsec {
+    width: 70%;
+    margin-right: 50px;
+    border: 1px solid;
+    border-radius: 8px;
+    position: relative
+}
+
+
+@media (max-width: 768px) {
+    .imagecontainer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .skillsbarsec {
+        margin-right: 5px;
+    }
+}
+
+.projectmaintitle{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}

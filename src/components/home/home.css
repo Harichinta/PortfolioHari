@@ -1,0 +1,9 @@
+.maincontainer{
+    /* background-color: black; */
+    overflow-x: hidden;
+}
+
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
