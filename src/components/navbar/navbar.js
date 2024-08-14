@@ -27,6 +27,9 @@ function navbar() {
             <li className="nav-item">
               <a className="nav-link" href='#Contact'>Contact</a>
             </li>
+            <li className="nav-item" style={{fontSize:"20px"}}>
+              <soan className="nav-link" style={{color:"black"}} >Hello</soan>
+            </li>
           </ul>
         </div>
       </div>
