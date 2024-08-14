@@ -9,12 +9,20 @@ import Projects from '../Projects/Projects'
 function home() {
   return (
     <div className='maincontainer'>
-      <Hero />
-      <About />
-      <Skills/>
-      <Projects/>
+      <div id='Hero'>
+        <Hero />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
       <div id="Contact">
-        <Contact/>
+        <Contact />
       </div>
     </div>
   )

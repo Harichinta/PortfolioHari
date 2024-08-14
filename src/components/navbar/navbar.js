@@ -13,19 +13,19 @@ function navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="#Hero">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Expertise</a>
+              <a className="nav-link" href="#skills">Expertise</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Projects</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Contact</a>
+              <a className="nav-link" href='#Contact'>Contact</a>
             </li>
           </ul>
         </div>

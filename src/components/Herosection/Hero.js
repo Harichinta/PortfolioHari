@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Hero.css'
 import profile from '../../assets/Hari-Venkatesh.png'
 

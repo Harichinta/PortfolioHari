@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import './projects.css';
-import Gailgas from '../../assets/gailgasproj.jpg';
-import profile from '../../assets/Hari-Venkatesh.png';
 
 function Projects() {
 
-  const percentage = 40
 
   const Projectsdata = [
     {
