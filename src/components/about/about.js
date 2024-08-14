@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './about.css'
-// import fire from '../../assets/giphy.gif'
+
 function About() {
-
-
-
     return (
         <div className='aboutcontainer'>
 
