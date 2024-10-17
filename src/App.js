@@ -4,7 +4,7 @@ import Home from './components/home/home';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/navbar/navbar';
-
+// this old portfolio
 
 function App() {
   return (
